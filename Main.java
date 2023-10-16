@@ -1,5 +1,10 @@
 import java.util.*;
-
+/**
+ * Demo class
+ *
+ * @author cyf
+ * &#064;date  2023/10/16
+ */
 public class Main {
     public static void main(String[] args) {
         Scanner sin = new Scanner(System.in);
@@ -32,13 +37,9 @@ public class Main {
             v.remove(j);
             v.add(j + y, change[i][0]);
 
-//            for (int k = 0; k < v.size(); k++) {
-//                System.out.print(v.get(k) + " ");
-//            }
-//            System.out.println();
         }
-        for (int k = 0; k < v.size(); k++) {
-            System.out.print(v.get(k) + " ");
+        for (Integer integer : v) {
+            System.out.print(integer + " ");
         }
     }
 }
