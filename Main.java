@@ -21,10 +21,12 @@ public class Main {
             int j = 0;
             while(j<v.size())
             {
-                j++;
+                //----j++;---
                 if(v.get(j)==change[i][0])
+                {
                     break;
-
+                }
+                j++;
             }
 
             v.remove(j);
